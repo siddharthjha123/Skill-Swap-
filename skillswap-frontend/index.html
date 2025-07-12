@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skill Swap Platform</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Skill Swap Platform</h1>
+    <button class="login-btn">Login</button>
+  </header>
+
+  <div class="search-bar">
+    <select id="availability">
+      <option>Availability</option>
+    </select>
+    <input type="text" placeholder="Search..." />
+    <button class="search-btn">Search</button>
+  </div>
+
+  <div class="card-container" id="userCards">
+    <!-- User cards will be inserted by JavaScript -->
+  </div>
+
+  <div class="pagination">
+    <button onclick="prevPage()">&lt;</button>
+    <span id="pageNumbers"></span>
+    <button onclick="nextPage()">&gt;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

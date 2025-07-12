@@ -16,7 +16,11 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, var(--silver-mist) 0%, #f8f9fa 100%);
+  background: url('5RlXjISAoh2vfp5MeLPNxQZkTE.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--dark-graphite);
   line-height: 1.6;
   min-height: 100vh;
